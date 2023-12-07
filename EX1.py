@@ -2,7 +2,7 @@ d = { "Иванов":20, "Сидоров":68, "Петров":26, "Смирнов
 d["Негодин"] = 50
 d["Вакутагин"] = 100
 
-mini = 101
+mini = 102
 maxi = -1
 avg = sum(d.values())/len(d.keys())
 print(f"Average mark: {round(avg, 2)}")
